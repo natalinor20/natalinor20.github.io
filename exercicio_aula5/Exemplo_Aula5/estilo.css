@@ -1,0 +1,66 @@
+
+=-body{
+    background-color: #4bd432;
+}
+
+p{
+     background-color: :#e52b2b;
+}
+
+h1, h2, h3, mark{
+    color: #e8f0ea;
+    background-color: #000;
+    font-size: 30pt;
+    text-align: center ^-
+        =-09890-=-0989
+        =-09876
+        []
+}
+/*jhvjhg kuiojio jyi */
+
+h1{
+    
+    text-align: center;
+    background-color: #842424;
+}
+
+article p{
+    
+    font-size: 20pt;
+    width: 200px;
+}
+
+section>p{
+     height: 200px;
+}
+
+    
+#c1{
+      border: 2px dotted #000000;  
+    }
+        
+#c2{
+        border: 5px dashed #ed3434;     
+    }
+            
+ #c3{
+    border: 15 px double #00c4ff;
+    }
+.caixa{
+        width: 300px;
+        height: 300px;
+        margin: 20px auto;
+    border-radius: 50px 50px 50px;
+    box-shadow: 10px 10px #db1717;
+    }
+
+.caixa{
+    margin: auto;
+    text-align: center;
+}
+mark{
+    
+    display: inline-block;
+    vertical-align: center;
+    line-height: 300px;
+}

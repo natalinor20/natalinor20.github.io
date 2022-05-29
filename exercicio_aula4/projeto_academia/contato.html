@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Academia Cruzeiro</title>
+</head>
+
+<body>
+    <hr/>
+    <header>
+        <img src="imagem/contato.png" width="100%">
+    </header>
+    <nav>
+        <a href="index.html">Home</a></li>|
+        <a href="aulas.html">Aulas</a></li>|
+        <a href="musicas.html">Músicas</a></li>|
+        <a href="contato.html">Contato</a></li>|
+    </nav>
+    <hr/>
+    <form name="formcontato" method="post" action="server">
+        <fieldset>
+            <legend>Tire suas dúvidas conosco!</legend>
+            <table border="0">
+                <tr>
+                    <td>Seu nome:</td>
+                    <td>
+                        <input type="text" name="nome" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td>
+                        <input type="email" name="email" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sexo:</td>
+                    <td>
+                        <select>
+                            <option value="F">Feminino</option>
+                            <option value="M">Masculino</option>
+                            <option value="None">Prefiro não informar</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Já é aluno da academia?</td>
+                    <td>
+                        <input type="radio" name="client_check" value="sim" />Sim
+                        <input type="radio" name="client_check" value="nao" />Não
+                    </td>
+                </tr>
+                <tr>
+                    <td>Número de Matrícula (somente para alunos):</td>
+                    <td>
+                        <input type="number" name="idclient">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top">Mensagem:</td>
+                    <td>
+                        <textarea rows="5" cols="50"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+body figure {
+    background: #fff;
+    width: 320px;
+    height: 600px;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow:  5px 9px 8px;
+    border-radius: 15px 15px 15px 15px;
+    overflow: hidden;
+}
+
+img.coffe {
+    width: 110%;
+    margin-left: -10px;
+    margin-top: -10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+h1 {
+    width: 160px;
+    font-family: cursive;
+    font-size: 25px;
+    margin-left: -5px;
+    line-height: 0px;
+}
+
+div.dist {
+    width: 30px;
+    height: 40px;
+    margin-left: 240px;
+    margin-top: -30px;
+}
+
+.dist p {
+    width: 40px;
+    margin-left: 25px;
+    margin-top: -35px;
+    font-family: cursive;
+}
+
+div.estrelas img {
+    width: 90px;
+    height: 15px;
+    margin-top: -20px;
+    margin-left: -5px;
+}
+
+.estrelas p {
+    font-family: cursive;
+    font-size: 10px;
+    width: 50px;
+    margin-top: -15px;
+    margin-left: 90px;
+}
+
+h3 {
+    font-family: cursive;
+    font-size: 22px;
+    margin-top: 35px;
+    margin-left: -5px;
+}
+
+p {
+    font-family: cursive;
+    font-size: 16px;
+    margin-top: 35px;
+}
+
+h3.dias {
+    font-family: cursive;
+    font-size: 22px;
+    text-align: center; 
+    margin-top: 0;
+}
+
+img.clock {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+div.horario p {
+    font-family: cursive;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+div.reserva {
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #8e8585;
+}
