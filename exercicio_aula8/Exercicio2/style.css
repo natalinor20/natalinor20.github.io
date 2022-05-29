@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient(#1e1ef7, #bdb7ff);
+    background-attachment: fixed;
+}
+
+#container{
+    width: 750px;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+#menutopo{
+    height: 30px;
+    background: linear-gradient(90deg, #ffb38a, #ff5900);
+    border-radius: 10px 10px 0px 0px;
+padding-left: 40px;
+    padding-top: 20px;
+}
+#menutopo a{
+ padding: 10px;
+    color: #fff;
+}
+
+.cabecalho{
+   background: linear-gradient(90deg, #ffe59f, #bf8b00);
+    padding: 20px;
+    padding-top: 40px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+#conteudo{
+    display: inline-flex;
+    background-color: #fff;
+     border-radius: 0px 0px 20px 20px;
+}
+
+.menuesq{
+    width: 235px;
+    vertical-align: top;
+}
+
+.menuesq a, .menudi a{
+    display: block;
+    padding: 20px 0px;
+    border-top: 2px solid #ccc;
+    text-decoration: none;
+    color: #b44408;
+
+}
+section{
+    padding: 10px;
+    
+}
+section.texto{
+    margin-right: 15px;
+    padding-right: 0px;
+}
+.artigo{
+display: inline-flex;
+    margin-top: 50px;
+    
+}
+/*nao e assim*/
+.paragrafo{
+    border-top: 2px solid #ccc;
+}
+article.center{
+    padding: 0px 20px 0px 0px;
+    
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background: none;
+}

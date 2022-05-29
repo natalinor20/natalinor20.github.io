@@ -1,0 +1,118 @@
+    body {
+    padding: 0px;
+    margin: 0px;
+    font-family: verdana;
+    background-color: rgba(160, 157, 143, 0.12);
+}
+
+#container {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 3px 0px;
+}
+
+header {
+    width: auto;
+    background-color: #f5ecc3;
+    border-radius: 50px;
+    font-size: 20pt;
+    text-align: center;
+    margin: 20px;
+        
+}
+
+h1 {
+    padding: 10px;
+    border-radius: 50px;
+}
+
+span {
+    color: #8b3535;
+}
+
+.home {
+    background: #8b3535;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 20pt;
+    padding: 5px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+    background-color: #1ff4ac;
+    border-radius: 50px 50px;
+}
+
+a {
+    display: inline-block;
+    background-color: #eb8508;
+    color: #fff;
+    padding: 9px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 5px 0px;
+    vertical-align: 40px;
+}
+
+nav {
+    display: block;
+    margin: 20px;
+}
+
+article {
+    width: 100%;
+    text-align: center;
+}
+
+a:hover {
+    color: #000;
+}
+
+a:visited {
+    background-color: #4a773f;
+}
+    nav.curriculo{
+       background-color: #f5ecc3;
+        padding-top: 20px;
+        padding-left: 5px;
+        
+    }
+    .link{
+       background-color: #8b3535;
+        font-size: 16pt;
+        font-weight: bolder;
+      
+    }
+
+footer {
+    text-align: center;
+    background: none;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 700px){
+     #container{
+        background-color: #000;
+         margin: auto
+    }
+    article a{
+        width: 300px;
+    }
+    h1{
+        font-size: 20pt;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+span{
+        display: block;
+    }
+
+ 

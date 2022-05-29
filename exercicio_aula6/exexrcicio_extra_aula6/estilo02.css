@@ -1,0 +1,109 @@
+body{
+    width: 960px;
+    height: auto;
+    margin: auto;
+    font-family: verdana;
+    font-size: 12px;
+    
+}
+
+footer{    
+    width: 766px;
+    border-radius: 10px;
+    height: 50px;
+    padding: 1px;
+    /*background-color: rgb(185, 177, 177, 0.5);*/
+    background-image: linear-gradient( to left, #555 , #999, #BBB 50%, #999, #555);
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 8px auto;
+    
+}
+
+article{
+    padding: 10px 10px 0px 10px;
+    width: 800px;
+    height: 275px;   
+
+}
+
+.link{
+    color: #129012;
+    text-decoration:none;
+}
+.link:visited{
+    color: #901212;
+}
+
+
+.sec01 {
+    display: flex; 
+    justify-content: space-between;
+    width: 750px;
+    height: 250px;
+    border-style: solid;
+    border-radius: 19px;
+    border-width: 1px;
+    border-color: #000000;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 10px 1px #ccc;
+
+}
+
+.sec02 {
+    display: flex; 
+    justify-content: space-between;
+    width: 750px;
+    height: 250px;
+    border-style: solid;
+    border-radius: 19px;
+    border-width: 1px;
+    border-color: #000000;
+    padding: 10px;
+    margin: 5px auto;
+    box-shadow: 10px 10px 10px 1px #ccc;
+
+}
+
+
+figure {
+    margin: 5px;
+    margin-top: 100px;
+    margin: auto;  
+    padding: 10px;
+    
+}
+
+.f1:hover{
+    transform: scale(1.2);
+}
+
+figure > p{
+    text-align: center;
+    margin-top: auto;
+}
+
+hr{
+    opacity: 0.1;
+}
+
+figcaption{
+    width: 420px;
+    height: auto;
+    margin: 25px auto;
+    text-align: justify;
+  
+}
+
+figcaption > ul{
+    text-align: justify;
+    font-size: 10px;
+    margin: 10px auto;
+}
+
+figcaption > h2{
+    color: #129012;
+    
+}

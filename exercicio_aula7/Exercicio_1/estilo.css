@@ -1,0 +1,48 @@
+body {
+    width: 640px;
+    height: 490px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+div {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 5px;
+    position: relative;
+}
+
+span {
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 150px;
+    border-radius: 5px;
+}
+
+span:hover {
+    /* O efeito é aplicado na box como um todo */
+    transform: rotateY(180deg);
+    box-shadow: 0px 0px 9px 0px;
+}
+
+img {
+    /* Configuração da imagem. */
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 5px;
+}
+
+span figcaption {
+    /* Configuração do texto que deve aparecer na transição da imagem */
+    background: #eaeaed;
+    color: #0087cc;
+    line-height: 150px;
+    text-align: center;
+    transform: rotateY(-180deg);
+     border-radius: 5px;
+}

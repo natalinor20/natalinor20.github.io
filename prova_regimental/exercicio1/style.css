@@ -1,0 +1,38 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+main{
+    max-width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    
+}
+header img{
+    width: 100%;
+    
+    
+}
+section{
+    display: inline-flex;
+    width: 96%;
+    background-color: #be2020;
+    color: #fff;
+    font-size: 25pt;
+    font-family: verdana;
+    padding: 0px 20px;
+    border-bottom: 10px solid #c4780f;
+    border-top: 10px solid #c4780f;
+    
+    
+
+}
+span{
+  display: block;
+
+}
+.p2{
+   margin-left: 40%
+}

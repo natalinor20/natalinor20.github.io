@@ -1,0 +1,139 @@
+body{
+    width: 760px;
+    margin: 0 auto;
+    border: 0px;
+    font-family: arial;
+}
+
+header{
+    width: 756px;
+    height: 55px;
+    border: 2px;
+    margin-bottom: 8px;
+    border-radius: 15px 15px 0px 0px;
+    border-color: #000;
+    border-style: solid;
+    text-align: center;
+    padding: 0px;
+    
+}
+header > h1{
+    margin: 1px;
+    margin-top: 1%;
+    color: #b4b4b4;
+    
+    
+}
+
+nav{
+    margin: auto;
+    border: 2px;
+    width: 760px;
+    
+}
+
+section{
+    display: inline-block;
+    margin-bottom: 16px;
+        
+}
+
+img{
+    padding: 10px 5px 5px 10px;
+    max-height: 300px;
+    max-height: 250px;
+}
+
+.esquerda{
+    width:365px;
+    float: left;
+    border: 2px;
+    border-color: #b4b4b4;
+    border-style: solid;
+    border-radius: 0px 15px 15px 0px;
+    margin-right: 0px;
+    padding: 2px;
+    box-shadow: 2px 5px 10px 0px #888888;
+}
+
+.direita{
+    width:365px;
+    float: right;
+    border: 2px;
+    border-color: #76a07b;
+    border-style: solid;
+    border-radius: 15px 0px 0px 15px;
+    margin-left: 0px;
+    padding: 2px;
+    box-shadow: 2px 5px 10px 0px #76a07b;
+}
+
+section > p , li{
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+}
+
+.titulo{
+    font-weight: bolder;
+    text-align: left;
+}
+
+form{
+    clear: both;
+    width: 738px;
+    height: 165px;
+    border: 2px;
+    margin-bottom: 5px;
+    border-radius: 0px 0px 15px 15px;
+    border-color: #000;
+    border-style: solid;
+    padding: 8px;
+
+}
+
+label{
+    width: 100%;
+    height: auto;
+    
+}
+label > span{
+    display: block;
+    padding: 8px 8px 0px 8px;
+    
+}
+
+label > .message{
+    width: 550px;
+    height: 100px;
+    background:#ffffff;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+    overflow:hidden;
+}
+
+.button{
+    display: block;
+    float: right;
+    margin-right: 200px;
+}
+
+footer{
+    clear: both;
+    width: 744px;
+    height: 35px;
+    border: 2px;
+    border-radius: 15px 15px 0px 0px;
+    border-color: #000;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+    background-color: #000;
+}
+
+footer > h3{
+    margin: 1px;
+    margin-top: 1%;
+    color: #fff;
+}

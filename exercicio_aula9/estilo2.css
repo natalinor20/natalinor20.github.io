@@ -1,0 +1,95 @@
+#topo, footer{
+    background-color: #000;
+    color: #fff;
+}
+
+body,#topo h1{
+    margin: 0px;
+    font-family: verdana;
+}
+
+footer{
+    padding: 40px;    
+    text-align: center;
+    clear: both;
+}
+
+main, header, #menusup{
+    width: 860px;
+    margin: auto;
+}
+
+figure{
+    margin: 0px;
+    background-color: #ccc;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+figure img{
+    width: 100%;
+}
+
+#topo h1 span, #topo p{
+    color:#f43e3e;
+}
+
+#topo p{
+    margin: 0px;
+}
+
+#topo header{
+    padding: 20px;
+    background-color: #908d8d;
+    box-sizing: border-box;
+}
+
+#topo nav{
+    background-color: #555555;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+#topo nav a {
+    display: inline-block;
+    width: 80px;
+    background-color: #f78c8c;
+    text-align: center;
+}
+
+#esq, #content{
+    float: left;
+}
+
+#esq{
+    width: 25%;
+}
+
+#content{
+    width: 73%;
+}
+
+h2{
+    font-weight: 100;
+}
+
+p{
+    text-align: justify;
+}
+
+#esq article, #esq nav{
+    border:1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+ul li{
+    list-style-image: url(bullet.png);
+}
+
+a{
+    text-decoration: none;
+}

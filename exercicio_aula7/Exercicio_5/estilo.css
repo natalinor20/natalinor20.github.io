@@ -1,0 +1,128 @@
+body{
+    width: 700px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: arial;
+}
+
+img{
+    max-height: 150px;
+}
+
+nav{
+    width: 700px;
+    height: 850px; 
+    padding: 3px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.left{
+    width: 20%;
+    height: 100%;
+    border: 1px #000000;
+    border-radius: 0px 15px 15px 0px;
+    border-style: solid;
+    margin-bottom: px;
+    float: left;
+    padding: 8px;
+    margin-left: 0;
+    
+}
+
+.left > p{
+    text-align: center;
+    margin-top: 350px;
+    font-size: 23px;
+    color: rgb(92, 92, 245);
+    
+}
+h4{
+  line-height: 0px;
+}
+
+
+.claro{
+    width: 73%;
+    height: 410px;
+    border: 1px #d90000;
+    border-style: solid; 
+    float: right;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    margin-right: 10px;
+    box-shadow: 6px 6px 10px 0px rgba(217, 0, 0, 0.72);
+    padding: 5px;
+}
+
+
+.oi{
+    width: 73%;
+    height: 410px;
+    border: 1px #e0c600;
+    border-style: Solid; 
+    float: right;
+    margin-top: 8px;
+    border-radius: 15px;
+    margin-right: 10px;
+    box-shadow: 6px 6px 10px 0px rgba(224, 198, 0, 0.72);
+    padding: 5px;
+}
+
+
+section > img{
+    clear: both;
+    margin-left: 25px;
+    margin-top: 25px
+}
+
+.escolha{
+    width: 65px;
+    height: 150px; 
+    margin-top: 1px;
+    margin-bottom: 0px;
+    
+}
+
+.botton{
+    width: 690px;
+    margin-left: 3px;
+    height: 80px;
+    border: 1px;
+    border-radius: 0px 15px 15px 15px;
+    border-color: #000;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+    margin-top: 0px;
+    
+    
+}
+
+.botton > p , .container{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 3px;
+}
+
+
+footer{
+    margin-top: 5px;
+    width: 99%;
+    height: 35px;
+    border: 2px;
+    border-radius: 15px 15px 0px 0px;
+    border-color: #000;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+    background-color: #000;
+}
+
+
+footer > h3{
+    margin: 1px;
+    margin-top: 10px;
+    color: #fff;
+}
